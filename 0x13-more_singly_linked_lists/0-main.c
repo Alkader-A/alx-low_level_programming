@@ -4,9 +4,10 @@
 #include "lists.h"
 
 /**
-* main - check the code 
-* Return: Always 0.
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 listint_t *head;
@@ -18,8 +19,8 @@ head = &hello;
 new = malloc(sizeof(listint_t));
 if (new == NULL)
 {
-printf("Error\n");
-return (1);
+	printf("Error\n");
+	return (1);
 }
 new->n = 9;
 new->next = head;
